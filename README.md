@@ -37,11 +37,20 @@ Para el modelo ajustado, se aplicaron técnicas de regularización y ajuste de p
 
 ![Gráfico 1: Bias-Variance Trade-off Modelo Inicial y Optimizado](images/image1.png)
 
-**Comentario:** En el gráfico 1, observamos que el error de validación y prueba disminuye hasta un max depth de 2.0. A partir de este punto, el error de validación comienza a aumentar, mientras que el error de prueba se mantiene relativamente constante. Esto indica que el modelo comienza a sobreajustar después de este punto.
+**Comentario:** En el gráfico 1, observamos que el error de validación y prueba disminuye hasta un max depth de 2.0. A partir de este punto, el error de validación comienza a aumentar, mientras que el error de prueba se mantiene relativamente constante. Esto indica que el modelo comienza a sobreajustar después de este punto. 
+
+**Interpretación de Sesgo y Varianza:** Hasta un max depth de 2.0, el modelo tiene un sesgo relativamente bajo y una varianza moderada. Sin embargo, después de este punto, el aumento en el error de validación y la estabilidad del error de prueba sugieren que el modelo está incrementando su varianza (sobreajustando) mientras mantiene un sesgo bajo. 
+
+**Ajuste del Modelo:** Hasta un max depth de 2.0, el modelo parece estar bien ajustado. Sin embargo, después de este punto, el modelo comienza a sobreajustar, como se evidencia por el aumento en el error de validación mientras que el error de prueba se mantiene constante.
 
 ![Gráfico 2: Bias-Variance Trade-off Modelo Ajustado](images/image2.png)
 
 **Comentario:** En el gráfico 2, el modelo ajustado muestra un comportamiento similar al modelo inicial y optimizado hasta un max depth de 2.0. Sin embargo, después de este punto, el modelo ajustado mantiene un error de validación y prueba más consistente, lo que indica que el ajuste realizado ha mejorado la capacidad de generalización del modelo.
+
+**Interpretación de Sesgo y Varianza:** El modelo ajustado, en comparación con el modelo inicial y optimizado, muestra un sesgo bajo y una varianza más controlada a lo largo de diferentes profundidades. La menor diferencia entre los errores de validación y prueba en profundidades mayores sugiere que el modelo ajustado ha reducido su varianza sin aumentar significativamente su sesgo.
+
+**Ajuste del Modelo:** El modelo ajustado parece estar bien ajustado en la mayoría de las profundidades, mostrando un equilibrio entre sesgo y varianza. No muestra signos claros de sobreajuste o subajuste, lo que indica que los ajustes realizados han sido efectivos.
+
 
 ## Interpretación de Sesgo y Varianza
 

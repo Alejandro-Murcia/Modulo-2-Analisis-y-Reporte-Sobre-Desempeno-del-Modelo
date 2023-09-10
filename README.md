@@ -1,11 +1,11 @@
 # Modulo-2-Analisis-y-Reporte-Sobre-Desempeno-del-Modelo
-Evidencia FInal para Módulo 2 - Alejandro Murcia - A00828513
+Evidencia Final para Módulo 2 - Alejandro Murcia - A00828513
 
 # Análisis y Optimización del Modelo de Clasificación
 
 ## Introducción
 
-El objetivo de este análisis es evaluar y optimizar un modelo de clasificación basado en el algoritmo Random Forest. Utilizamos el conjunto de datos Pima Indians Diabetes para predecir si una persona tiene diabetes basándose en características como número de embarazos, BMI, nivel de insulina, edad, entre otros. Dividimos el conjunto de datos en tres partes: entrenamiento, validación y prueba, para asegurar una evaluación justa y evitar el sobreajuste.
+El objetivo de este análisis es evaluar y optimizar un modelo de clasificación basado en el algoritmo Random Forest. Utilizamos el conjunto de datos Pima Indians Diabetes para predecir si una persona tiene diabetes basándose en características como número de embarazos, BMI, nivel de insulina, edad, entre otros. Dividimos el conjunto de datos en tres partes: entrenamiento, validación y prueba, para asegurar una evaluación justa y evitar el sobreajuste. Decidimos utilizar el gráfico de errores (Bias-Variance Trade-off) para visualizar y entender el comportamiento del modelo en términos de sesgo (bias) y varianza.
 
 ## Evaluación de Modelos
 
@@ -42,6 +42,12 @@ Para el modelo ajustado, se aplicaron técnicas de regularización y ajuste de p
 ![Gráfico 2: Bias-Variance Trade-off Modelo Ajustado](images/image2.png)
 
 **Comentario:** En el gráfico 2, el modelo ajustado muestra un comportamiento similar al modelo inicial y optimizado hasta un max depth de 2.0. Sin embargo, después de este punto, el modelo ajustado mantiene un error de validación y prueba más consistente, lo que indica que el ajuste realizado ha mejorado la capacidad de generalización del modelo.
+
+## Interpretación de Sesgo y Varianza
+
+El sesgo se refiere a la capacidad del modelo para capturar patrones en los datos. Un alto sesgo indica que el modelo no está capturando suficientemente bien los patrones, mientras que un bajo sesgo indica que el modelo está capturando los patrones adecuadamente.
+
+La varianza se refiere a la sensibilidad del modelo a pequeñas fluctuaciones en el conjunto de entrenamiento. Una alta varianza indica que el modelo es muy sensible a estas fluctuaciones y, por lo tanto, es propenso al sobreajuste. Una baja varianza indica que el modelo es robusto a estas fluctuaciones.
 
 ## Sweet Spot
 

@@ -35,11 +35,11 @@ Para el modelo ajustado, se aplicaron técnicas de regularización y ajuste de p
 
 ## Análisis Gráfico de Bias-Variance Trade-off
 
-![Gráfico 1: Bias-Variance Trade-off Modelo Inicial y Optimizado](path_to_image1.png)
+![Gráfico 1: Bias-Variance Trade-off Modelo Inicial y Optimizado](images/image1.png)
 
 **Comentario:** En el gráfico 1, observamos que el error de validación y prueba disminuye hasta un max depth de 2.0. A partir de este punto, el error de validación comienza a aumentar, mientras que el error de prueba se mantiene relativamente constante. Esto indica que el modelo comienza a sobreajustar después de este punto.
 
-![Gráfico 2: Bias-Variance Trade-off Modelo Ajustado](path_to_image2.png)
+![Gráfico 2: Bias-Variance Trade-off Modelo Ajustado](images/image2.png)
 
 **Comentario:** En el gráfico 2, el modelo ajustado muestra un comportamiento similar al modelo inicial y optimizado hasta un max depth de 2.0. Sin embargo, después de este punto, el modelo ajustado mantiene un error de validación y prueba más consistente, lo que indica que el ajuste realizado ha mejorado la capacidad de generalización del modelo.
 

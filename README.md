@@ -1,7 +1,7 @@
 # Modulo-2-Analisis-y-Reporte-Sobre-Desempeno-del-Modelo
 Evidencia Final para Módulo 2 - Alejandro Murcia - A00828513
 
-# Análisis y Optimización del Modelo de Clasificación
+# Análisis y Optimización del Modelo de Clasificación (Random Forest)
 
 ## Introducción
 
